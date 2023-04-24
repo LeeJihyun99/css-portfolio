@@ -1,0 +1,319 @@
+.outer-box{
+    position:relative;
+    background-color:darksalmon;
+
+
+}
+.korea{
+    position:absolute;
+    background-color:bisque;
+    width:20%;
+    top:10%;
+
+}
+.germany{
+    position:absolute;
+    background-color:bisque;
+    width:20%;
+    left:50%;
+    top:10%;
+
+}
+p{
+    text-align:center;
+}
+
+.koreanflag{
+    position:relative;
+    background-color:white;
+    height:300px;
+}
+
+.germanflag{
+    position:relative;
+    background-color:white;
+    height:300px;
+}
+
+/* flag of Germany */
+
+.germanflag  div {
+    position: absolute;
+    background-color:black;
+    width:100%;
+    height:100%;
+}
+.germanflag div div {
+    position:absolute;
+    background-color:red;
+    top:34%;
+    height:66%;
+} 
+.germanflag div div div{
+    position:absolute;
+    background-color:yellow;
+    top:50%;
+    height:100px;
+}  
+
+
+/* flag of Korea */
+.left{
+    position:absolute;
+    width:25%;
+    height:100%;
+}
+
+.center{
+    position:absolute;
+    width:50%;
+    height:100%;
+    left:25%;
+}
+
+.right{
+    position:absolute;
+    width:25%;
+    height:100%;
+    left:75%;
+}
+
+.biguppersemicircle{
+    position:absolute;
+    background-color:red;
+    width:100%;
+    height:25%;
+    border-radius: 30rem 30rem 0 0;
+    top:25%;
+}
+.biglowersemicircle{
+    position:absolute;
+    background-color:blue;
+    width:100%;
+    height:25%;
+    border-radius:0 0 30rem 30rem;
+    top:50%;
+}
+
+.biguppersemicircle #smalluppersemicircle {
+    position:absolute;
+    background-color:blue;
+    width:50%;
+    height:50%;
+    border-radius:20rem 20rem 0 0;
+    top:60%;
+    left:50%;
+}
+
+.biglowersemicircle #smalllowersemicircle{
+    position:absolute;
+    background-color:red;
+    width:50%;
+    height:50%;
+    border-radius:0 0 20rem 20rem;
+    top:-10%;
+}
+
+.left .left-up{
+    position:absolute;
+    width:100%;
+    height:50%;
+}
+
+.left .left-down{
+    position:absolute;
+    width:100%;
+    height:50%;
+    top:50%;
+}
+
+/* black bars  for left-up*/
+.left-up #up {
+    position:absolute;
+    background-color:black;
+    width:80%;
+    height:7%;
+    left:2%;
+    top:30%;
+}
+.left-up #center {
+    position:absolute;
+    background-color:black;
+    width:80%;
+    height:7%;
+    left:13%;
+    top:37%;
+
+}
+
+.left-up #bottom {
+    position:absolute;
+    background-color:black;
+    width:80%;
+    height:7%;
+    left:24%;
+    top:44%;
+}
+
+.left-up div{
+    transform:rotate(-40deg);
+}
+
+/* black bars for left-bottom */
+.left-down #up{
+    position:absolute;
+    background-color:black;
+    width:80%;
+    height:7%;
+    left:22%;
+    top:30%;
+
+}
+
+.left-down #center-left{
+    position:absolute;
+    background-color:black;
+    width:40%;
+    height:7%;
+    top:30%;
+    left:14%; 
+}
+
+.left-down #center-right{
+    position:absolute;
+    background-color:black;
+    width:40%;
+    height:7%;
+    top:45%;
+    left:48%
+}
+
+.left-down #bottom{
+    position:absolute;
+    background-color:black;
+    width:80%;
+    height:7%;
+    top:45%;
+}
+
+.left-down div{
+    transform:rotate(40deg);
+}
+
+.right-up{
+    position:absolute;
+    width:100%;
+    height:50%;
+}
+.right-down{
+    position:absolute;
+    width:100%;
+    height:50%;
+    top:50%;
+}
+/* black bars for right-up */
+.right-up #up-left{
+    position:absolute;
+    background-color:black;
+    width:40%;
+    height:7%;
+    top: 30%;
+    left:26%;
+}
+.right-up #up-right{
+    position:absolute;
+    background-color:black;
+    width:40%;
+    height:7%;
+    left:59%;
+    top:45%;
+}
+
+.right-up #center{
+    position:absolute;
+    background-color:black;
+    width:80%;
+    height:7%;
+    top:45%;
+    left:10%
+}
+
+.right-up #bottom-left{
+    position:absolute;
+    background-color:black;
+    width:40%;
+    height:7%;
+    top:45%;
+    left:4%;
+
+}
+.right-up #bottom-right{
+    position:absolute;
+    background-color:black;
+    width:40%;
+    height:7%;
+    top:60%;
+    left:36%;
+}  
+
+.right-up div{
+    transform:rotate(40deg);
+}
+
+/* black bars for right-down */
+.right-down #up-left{
+    position:absolute;
+    background-color:black;
+    width:40%;
+    height:7%;
+    top:40%
+}
+
+.right-down #up-right{
+    position:absolute;
+    background-color:black;
+    width:40%;
+    height:7%;
+    left:35%;
+    top:25%
+}
+
+.right-down #center-left{
+    position:absolute;
+    background-color:black;
+    width:40%;
+    height:7%;
+    top:48%;
+    left:10%;   
+}
+
+.right-down #center-right{
+    position:absolute;
+    background-color:black;
+    width:40%;
+    height:7%;
+    top:32%;
+    left:45%;
+}
+
+.right-down #bottom-left{
+    position:absolute;
+    background-color:black;
+    width:40%;
+    height:7%;
+    top:55%;
+    left:22%
+}
+
+.right-down #bottom-right{
+    position:absolute;
+    background-color:black;
+    width:40%;
+    height:7%;
+    top:39%;
+    left:57%
+}
+
+.right-down div{
+    transform:rotate(-40deg);
+}
